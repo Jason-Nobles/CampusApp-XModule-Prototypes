@@ -4,8 +4,6 @@ const { URL } = require('url');
 //use openLibrary api to display/view book information from a valid isbn
 
 //openlibrary API -> https://openlibrary.org/dev/docs/api/books
-//const URL = 'https://openlibrary.org/isbn/{num}.json'
-//9780321905758
 
 
 function gen(url){
@@ -139,12 +137,7 @@ function getBookInfo(req){
     else if(!containsLetter && global.findString.length >= 10 && !(global.findString.length > 14)){
         url = `https://openlibrary.org/api/books?bibkeys=ISBN:${global.findString}&jscmd=details&format=json`;
         global.isbn = true;
-        
     }
-
-    console.log(global.isbn)
-    console.log(search_string);
-    console.log(global.findString)
 
     global.url = gen(url)
 
