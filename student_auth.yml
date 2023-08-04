@@ -1,0 +1,16 @@
+---
+jason-nobles:
+    password: '$2y$10$SLU3/lRmfwmZrYEwosK/cebb/EBtekEu9Bjj4haMYDpTWoOg3V/U.'
+    attributes:
+        firstName: 'Jason'
+        lastName: 'Nobles'
+        email: 'name@schoolemail.com'
+        name: 'Jason Nobles'
+        meal_plan: [{id: 'Aggie Dollars', amount: 250},{id: 'Swipes', amount: 10},{id: 'Dining Dollars', amount: 75}]
+        major: 'Computer Science'
+        classification: 'Junior'
+        semester: 'Fall 2023'
+        advisor: [{name: 'Siddula, Madhuri', program: 'CS', email: 'advisor@email.com', image: 'https://media.licdn.com/dms/image/C4E03AQH4uTfty9pQFQ/profile-displayphoto-shrink_800_800/0/1572356981568?e=2147483647&v=beta&t=d1nq8sSdwjm0I6zAQu3p7DiJD5UcOVLK36-2j11hwEU'}]
+        photo: 'https://media.licdn.com/dms/image/D5603AQGE9krmF03WoA/profile-displayphoto-shrink_800_800/0/1687820005862?e=2147483647&v=beta&t=l2p87iL0hllxqx2s51Sr5PzOtHtRu7IGQmTQFrAcMN0'
+        courses: ['math224.01', 'comp360.01', 'ecen375.02', 'chem107.04']
+---
